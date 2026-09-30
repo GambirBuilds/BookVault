@@ -4,6 +4,8 @@
 
 BookVault is a modern, responsive, production-quality digital library platform designed for avid readers, researchers, and lifelong learners. It catalogs **over 220 genuine, verified books** across classical literature, science, technology, economics, and philosophy with authentic metadata and verified legal sources.
 
+<img width="1909" height="912" alt="image" src="https://github.com/user-attachments/assets/a0261862-9a14-4020-9703-0217db2c6dae" />
+
 ---
 
 ## 🌟 Overview
@@ -75,54 +77,54 @@ BookVault provides a distraction-free, aesthetically pleasing reading vault. Rea
 ```
 src/
 ├── components/
-│   ├── AuthorCard.jsx          # Author showcase card with biography snippet & book count
-│   ├── BookAccessBadge.jsx     # Visual badge for Public Domain, Open Access, Official, Library
-│   ├── BookCard.jsx            # Book card supporting Grid and List view modes
-│   ├── BookGrid.jsx            # Responsive grid with progressive loading and empty state
-│   ├── CategoryCard.jsx        # Category dashboard card with dynamic book counts
-│   ├── EmptyState.jsx          # Reusable fallback illustration for empty lists
-│   ├── FilterPanel.jsx         # Category, access, era, and sorting controls
-│   ├── Footer.jsx              # Navigation, legal statements, and copyright policy
-│   ├── GlobalSearchModal.jsx   # Command-K / modal search across books, authors, & categories
-│   ├── Navbar.jsx              # Header with logo, navigation, search, streak, and theme toggle
-│   ├── ReadingProgress.jsx     # Interactive page tracker with progress bar & status buttons
-│   ├── SearchBar.jsx           # Predictive search bar with dataset autocomplete
-│   └── ToastContainer.jsx      # Non-intrusive floating notification system
+│   ├── AuthorCard.jsx          
+│   ├── BookAccessBadge.jsx     
+│   ├── BookCard.jsx            
+│   ├── BookGrid.jsx            
+│   ├── CategoryCard.jsx        
+│   ├── EmptyState.jsx          
+│   ├── FilterPanel.jsx         
+│   ├── Footer.jsx              
+│   ├── GlobalSearchModal.jsx   
+│   ├── Navbar.jsx              
+│   ├── ReadingProgress.jsx     
+│   ├── SearchBar.jsx           
+│   └── ToastContainer.jsx      
 │
 ├── context/
-│   └── LibraryContext.jsx      # Global state for theme, favorites, reading list, streak, & toasts
+│   └── LibraryContext.jsx      
 │
 ├── data/
 │   ├── books/
-│   │   ├── fiction.js          # 40 verified fiction masterpieces
-│   │   ├── nonfiction.js       # 40 historical, biographical, & philosophical works
-│   │   ├── technology.js       # 40 computer science & software engineering books
-│   │   ├── business.js         # 35 finance, management, & startup classics
-│   │   ├── personalDev.js      # 35 productivity, habit, & leadership guides
-│   │   └── education.js        # 30 physics, mathematics, & learning volumes
-│   ├── books.js                # Aggregated 220+ books catalog & query helpers
-│   ├── categories.js           # Category definitions, icons, and descriptions
-│   ├── authors.js              # Author biographies and historical eras
-│   └── quotes.js               # Verified literary quotes & quote-of-the-day generator
+│   │   ├── fiction.js          
+│   │   ├── nonfiction.js       
+│   │   ├── technology.js       
+│   │   ├── business.js         
+│   │   ├── personalDev.js
+│   │   └── education.js        
+│   ├── books.js                
+│   ├── categories.js           
+│   ├── authors.js              
+│   └── quotes.js               
 │
 ├── pages/
-│   ├── Home.jsx                # Hero, statistics, featured, free books, categories, daily pick
-│   ├── Books.jsx               # Complete catalogue with instant search, filters, & sorting
-│   ├── BookDetails.jsx         # Large cover, metadata, access buttons, progress tracker, & similar
-│   ├── Categories.jsx          # Discipline directory with real-time book counts
-│   ├── Authors.jsx             # Author index with bios and direct catalogue filtering
-│   ├── MyLibrary.jsx           # Personal dashboard, reading goal, streak, tabs, & timeline
-│   ├── About.jsx               # Mission, features, technology stack, and legal copyright policy
-│   └── NotFound.jsx            # 404 error page with quick search and recovery links
+│   ├── Home.jsx                
+│   ├── Books.jsx               
+│   ├── BookDetails.jsx         
+│   ├── Categories.jsx         
+│   ├── Authors.jsx             
+│   ├── MyLibrary.jsx           
+│   ├── About.jsx               
+│   └── NotFound.jsx            
 │
 ├── utils/
-│   ├── storage.js              # LocalStorage persistence helpers (favorites, list, progress, goal)
-│   ├── filters.js              # Filter, search suggestion, and multi-criteria sorting logic
-│   └── recommendations.js      # Algorithmic similarity engine for "You May Also Like"
+│   ├── storage.js              
+│   ├── filters.js              
+│   └── recommendations.js      
 │
-├── App.tsx                     # Top-level routing and providers
-├── main.tsx                    # React DOM entry point
-└── index.css                   # Global Tailwind styling, typography, and custom scrollbars
+├── App.tsx                     
+├── main.tsx                    
+└── index.css                   
 ```
 
 ---
