@@ -1,0 +1,6 @@
+{
+  "name": "BookVault - Online Book Library & Discovery Platform",
+  "description": "Discover 200+ books, access legitimate public-domain and open-access reading materials, track reading progress, and curate your personal digital library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
